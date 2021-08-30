@@ -7,7 +7,7 @@ public class ArrayGradebook {
     public static void main(String[] args) {
 
         // Allow for at most 30 students
-        int maxStudents = 30;
+        int maxStudents = 3;
 
         String[] students = new String[maxStudents];
         double[] grades = new double[maxStudents];
