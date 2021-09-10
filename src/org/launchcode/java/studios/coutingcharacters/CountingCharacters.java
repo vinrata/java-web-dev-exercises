@@ -23,7 +23,6 @@ public class CountingCharacters {
 
         for (int i = 0; i < characterInString.length; i++) {
 
-            //charCounter = 1;
             if(!hashes.containsKey(characterInString[i])){
                 System.out.println("new entry!");
                 hashes.put(characterInString[i], charCounter);
